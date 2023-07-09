@@ -17,7 +17,7 @@ app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
 //our static files 
 app.use(express.static(path.join(__dirname, 'build')));
 
-//!middleware to check and verify a jwt and assign the user object froom the jwt to req.user
+//!middleware to check and verify a jwt and assign the user object from the jwt to req.user
 app.use(require('./config/check-token'));
 
 
@@ -25,7 +25,7 @@ app.use(require('./config/check-token'));
 const port = process.env.PORT || 3001;
 
 //put API routes before the catch all route:
-app.use('/api/users', require('./routes/api/users'))
+app.use('/api/users', require('./routes/api/users'));
 
 //?! wtf this do ?
 app.listen(port, function() {
