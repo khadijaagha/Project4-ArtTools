@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -14,12 +16,12 @@ code {
 
 /* CSS Custom Properties */
 :root {
-  --white: #FFFFFF;
-  --tan-1: #FBF9F6;
-  --tan-2: #E7E2DD;
-  --tan-3: #E2D9D1;
-  --tan-4: #D3C1AE;
-  --orange: #F67F00;
+  --white: #a7833c;
+  --tan-1: #fcedb6;
+  --tan-2: #005eff;
+  --tan-3: #7f4008;
+  --tan-4: #fffdf2;
+  --orange: #e0b013;
   --text-light: #968c84;
   --text-dark: #615954;
 }
@@ -164,4 +166,39 @@ button:disabled, form:invalid button[type="submit"] {
 button[type="submit"] {
   grid-column: span 2;
   margin: 1vmin 0 0;
+}
+
+
+.cart-title {
+  font-family: 'Poppins', sans-serif;
+}
+
+.tools-title {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wishlist-title{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+
+  width:fit-content;
+  text-decoration: none;
+}
+
+.home-one{
+  background-image: url("https://i.imgur.com/q5Qa9Mz.png"),
+  url("https://i.imgur.com/8pbxWub.png");
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 300px -20px;
+  background-color: #ffcc24;
+
+}
+
+.brush{
+  background-image: url("https://i.imgur.com/8pbxWub.png");
+  background-color: aqua;
 }

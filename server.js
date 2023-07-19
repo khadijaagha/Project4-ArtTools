@@ -2,6 +2,10 @@ const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
+const productRoute = require('./routes/api/products');
+const reviewRoute = require('./routes/api/reviews');
+const ensureLoggedIn = require('./config/ensureLoggedIn');
+
 // Always require and configure near the top 
 require('dotenv').config();
 require('./config/database');
@@ -26,8 +30,10 @@ const port = process.env.PORT || 3001;
 
 //put API routes before the catch all route:
 app.use('/api/users', require('./routes/api/users'));
+app.use('/api/arttools', ensureLoggedIn, productRoute);
+app.use('/api/arttools', ensureLoggedIn, reviewRoute);
 
-//?! wtf this do ?
+
 app.listen(port, function() {
   console.log(`Express app running on port ${port}`)
 });
@@ -36,3 +42,5 @@ app.listen(port, function() {
 app.get('/*', function(req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
   });
+
+

@@ -1,0 +1,24 @@
+POST http://localhost:3001/api/arttools
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0YjJiOGJkODY5MzZjNjQ0Nzk0YzExMCIsIm5hbWUiOiJrYWRAZW1haWwuY29tIiwiZW1haWwiOiJrYWRAZW1haWwuY29tIiwiY3JlYXRlZEF0IjoiMjAyMy0wNy0xNVQxNToxODoyMS4xMjNaIiwidXBkYXRlZEF0IjoiMjAyMy0wNy0xNVQxNToxODoyMS4xMjNaIiwiX192IjowfSwiaWF0IjoxNjg5NjExNzUzLCJleHAiOjE2ODk2OTgxNTN9.YdoW0glm6Uu9_kwFa6FRWaxUG5883YHDiST9wqFQyGY
+
+{
+    "title": "PaintBrush",
+    "price": 12
+}
+
+
+###
+POST http://localhost:3001/api/arttools/64b57dba8c86f57bcfaa5217/reviews/new
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0YjJiOGJkODY5MzZjNjQ0Nzk0YzExMCIsIm5hbWUiOiJrYWRAZW1haWwuY29tIiwiZW1haWwiOiJrYWRAZW1haWwuY29tIiwiY3JlYXRlZEF0IjoiMjAyMy0wNy0xNVQxNToxODoyMS4xMjNaIiwidXBkYXRlZEF0IjoiMjAyMy0wNy0xNVQxNToxODoyMS4xMjNaIiwiX192IjowfSwiaWF0IjoxNjg5NjExNzUzLCJleHAiOjE2ODk2OTgxNTN9.YdoW0glm6Uu9_kwFa6FRWaxUG5883YHDiST9wqFQyGY
+
+{
+    "content": "HELLO",
+    "rating": 1
+}
+
+
+###
+GET  http://localhost:3001/api/arttools/64b57dba8c86f57bcfaa5217
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0YjJiOGJkODY5MzZjNjQ0Nzk0YzExMCIsIm5hbWUiOiJrYWRAZW1haWwuY29tIiwiZW1haWwiOiJrYWRAZW1haWwuY29tIiwiY3JlYXRlZEF0IjoiMjAyMy0wNy0xNVQxNToxODoyMS4xMjNaIiwidXBkYXRlZEF0IjoiMjAyMy0wNy0xNVQxNToxODoyMS4xMjNaIiwiX192IjowfSwiaWF0IjoxNjg5NjExNzUzLCJleHAiOjE2ODk2OTgxNTN9.YdoW0glm6Uu9_kwFa6FRWaxUG5883YHDiST9wqFQyGY

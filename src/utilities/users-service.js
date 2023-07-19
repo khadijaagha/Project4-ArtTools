@@ -17,6 +17,7 @@ export function logOut() {
     localStorage.removeItem('token');
 }
 
+
 export function getToken() {
     //get item will return null if the key (token) doesnt exist/expired
     const token = localStorage.getItem('token');
@@ -53,3 +54,5 @@ export function checkToken() {
     localStorage.setItem('token', token);
     return getUser();
   }
+
+  

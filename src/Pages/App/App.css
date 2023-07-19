@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  text-decoration: none;
+
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #c75033;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +38,126 @@
     transform: rotate(360deg);
   }
 }
+
+
+.product-details{
+display: flexbox;
+justify-content: center;
+
+}
+
+.product-details p img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+.add-review{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-btn{
+  width: 5%;
+}
+
+.add-review > select{
+  width: 10%;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: small;
+  color: grey;
+  padding: 10px
+}
+
+.signup{
+  background-color:gold;
+  padding: 10px;
+}
+
+.signup-btn{
+  color: grey;
+}
+
+.paintbrush > img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.alltools-img > img{
+  max-width: 60%;
+  min-width: auto;
+
+  }
+
+  .tooldetails-img > img{
+    max-width: 60%;
+    min-width: auto;
+  }
+
+
+  .username{
+    
+  }
+
+  .reviews{
+    /* max-width: 30%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(243, 243, 211);
+    line-height: 7px;
+  }
+
+
+
+  hr.solid {
+    border-top: 3px solid #cacab9;
+  }
+
+  .title.tool{
+   
+  }
+
+
+.tool-details-title{
+  font-family: 'Poppins', sans-serif
+}
+
+
+.five{
+  font-style: italic;
+
+}
+
+.username{
+  font-style: italic;
+  font-size: smaller;
+}
+
+.login{
+  font-family: 'Poppins', sans-serif}

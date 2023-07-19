@@ -11,13 +11,19 @@ function handleLogOut() {
 
     return(
         <nav>
-            <Link to="/orders">Order History</Link>
+            <Link to="/alltools">ALL TOOLS</Link>
             &nbsp; | &nbsp;
-            <Link to="/orders/new">New Order</Link>
+            <Link to="/cart">CART</Link>
+            &nbsp; | &nbsp;
+            <Link to="/wishlist">WISHLIST</Link>
             &nbsp; | &nbsp;
             <span>Welcome, { user.name }</span>
             &nbsp; | &nbsp;
-            <Link to="Log Out" onClick={handleLogOut}>Log Out</Link>
+            <Link to="/home" onClick={handleLogOut}>Log Out</Link>
+            &nbsp; | &nbsp;
+            <Link to="/home">🏠</Link>
+            &nbsp; | &nbsp;
+            <Link to="/addtool">✚</Link>
         </nav>
     )
 }
