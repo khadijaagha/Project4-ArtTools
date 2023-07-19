@@ -16,7 +16,6 @@ const app = express();
 app.use(logger('dev'));
 app.use(express.json());
 
-//to use the faviconicons? i guess 
 app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
 //our static files 
 app.use(express.static(path.join(__dirname, 'build')));
