@@ -29,19 +29,32 @@ The technologies involved were: MongoDB, Express, React and Nodejs, Postman API,
 **Brief**
 
 ☐ A working full-stack, single-page application hosted on Heroku.
+
 ☐ Incorporate the technologies of the MERN-stack:
+
 MongoDB/Mongoose
+
 Express
+
 React
+
 Node
+
 ☐ Have a well-styled interactive front-end.
+
 ☐ Communicates with the Express backend via AJAX.
+
 ☐ Implement token-based authentication. Including the ability of a user to sign-up, log in & log out.
+
 ☐ Implement authorization by restricting CUD data functionality to authenticated users. Also, navigation should respond to the login status of the user.
+
 ☐ Have a well-scoped feature-set. Full-CRUD data operations are not required if one or more other features are included, for example:
 Consume data from a third-party API.
+
 Implement additional functionality if the user is an admin.
+
 Implementation of a highly dynamic UI or data visualisation.
+
 Other, instructor approved, complexity/features.
 
 
