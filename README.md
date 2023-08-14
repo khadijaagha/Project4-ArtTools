@@ -26,6 +26,7 @@ We were given a time frame of a week and it was a solo project.
 The technologies involved were: MongoDB, Express, React and Nodejs, Postman API, Figma, LucidChart, Trello
 
 
+
 **Brief**
 
 ☐ A working full-stack, single-page application hosted on Heroku.
@@ -71,12 +72,13 @@ Wireframes created on Figma:
 
 
 
+<img width="1166" alt="Screenshot 2023-08-14 at 17 29 08" src="https://github.com/khadijaagha/Project4-ArtTools/assets/130927994/6971a650-1b76-4451-bdb5-6791c54777e8">
 
 
 
 
 
-
+<img width="551" alt="Screenshot 2023-08-14 at 17 29 44" src="https://github.com/khadijaagha/Project4-ArtTools/assets/130927994/0339b3c1-9886-4c54-8ae7-75e493fbc812">
 
 
 
@@ -96,6 +98,10 @@ In addition to consistency, I focused on other principles such as hierarchy and 
 Moving forward, I am excited to continue working on this project post-course, refining the visual aspects and ensuring the user interface aligns perfectly with the envisioned design and user expectations. Through this experience, I have deepened my understanding of design principles, further empowering me to create compelling and user-centric applications in the future.
 
 
+<img width="1285" alt="Screenshot 2023-08-14 at 17 30 13" src="https://github.com/khadijaagha/Project4-ArtTools/assets/130927994/c58500c2-b840-49e1-a176-66c02b3f5c8a">
+
+
+
 
 
 Entity Relationship Diagram (ERD) made using LucidChart
@@ -110,6 +116,11 @@ By thoughtfully organising the ERD and making strategic decisions on where to fo
 
 Throughout the development phase, I employed Trello as my reliable project management tool, organising my tasks into three key categories: Ice Box, MVP, and Completed. This approach proved invaluable in keeping me on track and focused.
 
+
+<img width="1294" alt="Screenshot 2023-08-14 at 17 33 29" src="https://github.com/khadijaagha/Project4-ArtTools/assets/130927994/a7fce8ba-9cdc-4f85-bf9b-8c310d5224df">
+
+
+
 Within the Ice Box section, I prioritise my minimum requirements at the top and listed desired features below. This structure allowed me to maintain a clear understanding of what needed immediate attention and what could be addressed at a later stage.
 
 As I progressed through tasks, I moved them to the MVP category, serving as a helpful reminder of my current focus. This system was particularly beneficial when managing multiple tasks simultaneously, ensuring that I stayed organised and productive.
@@ -120,11 +131,18 @@ Thanks to Trello's practicality and my well-structured approach, I effectively m
 **Build/Code Process**
 
 
+<img width="1319" alt="Screenshot 2023-08-14 at 17 34 06" src="https://github.com/khadijaagha/Project4-ArtTools/assets/130927994/fdc73f1a-2492-4af7-9a0b-619c3e882447">
+
+
 
 Products.js - controller function
 
 This is an async function for updating a product in the database and checking if the id of the product is valid in line 66. If valid, it updates the corresponding product in the database with the data from the request body, and returns the updated product data as a response. If the id is not valid or no product is found with the provided id, the function returns an error response with an appropriate status code.
 I was proud of this function as it went smoother than expected in terms of coding it. It also taught me to refer to documentation throughout, e.g. reading up on the .findOneAndUpdate() method.
+
+
+<img width="1315" alt="Screenshot 2023-08-14 at 17 34 22" src="https://github.com/khadijaagha/Project4-ArtTools/assets/130927994/498066a5-6a41-4b8d-968a-28d653f556b6">
+
 
 
 Reviews.js - controller function 
@@ -138,6 +156,7 @@ If the product is successfully saved, the function responds with a JSON object c
 
 
 
+<img width="1201" alt="Screenshot 2023-08-14 at 17 34 52" src="https://github.com/khadijaagha/Project4-ArtTools/assets/130927994/aa9f42b8-fba7-4ae8-b8b3-87273c6bfb9a">
 
 
 
